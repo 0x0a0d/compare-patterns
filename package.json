@@ -10,10 +10,22 @@
     "type": "git",
     "url": "https://github.com/0x0a0d/compare-patterns"
   },
-  "keywords": ["match", "pattern", "patterns"],
+  "keywords": [
+    "match",
+    "compare",
+    "compare pattern",
+    "pattern",
+    "patterns"
+  ],
   "author": "0x0a0d",
   "license": "ISC",
   "devDependencies": {
+    "@cylution/eslint-config-nodejs": "^1.0.5",
+    "eslint": "^7.32.0",
     "jest": "^26.6.3"
-  }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ]
 }
